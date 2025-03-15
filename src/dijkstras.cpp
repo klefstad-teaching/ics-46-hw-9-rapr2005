@@ -53,8 +53,8 @@ void print_path(const vector<int>& path, int total_cost)
 {
     for (size_t i = 0; i < path.size(); ++i) 
     {
-        cout << path[i];
-        if (i + 1 < path.size()) cout << " ";
+        cout << path[i] << " ";
     }
     cout << "\nTotal cost is " << total_cost << endl;
 }
+
